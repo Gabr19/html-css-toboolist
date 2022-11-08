@@ -35,6 +35,7 @@ header{
     height: 90%;
     background-color: white;
     margin: auto;
+    border-radius: 1%;
 }
 
 #header-main{
@@ -124,9 +125,9 @@ header{
 }
 
 .casellacol{
-    border-radius: 30%;
-    width: 50%;
-    height: 50%;
+    border-radius: 10%;
+    width: 50px;
+    height: 100px;
 }
 
 
