@@ -50,7 +50,14 @@
 }
 
 #button1{
+    height: 20px;
     background-color: rgba(71,173,241,255);
+    color: white;
+}
+
+#button2{
+    height: 20px;
+    color: gray;
 }
 /* fine button */
 
@@ -61,16 +68,59 @@
 }
 
 .simbolov{
-    border-radius: 50%;
-    width: 12px;
-    height: 12px;
+    display: inline-block;
+    border-radius: 50% 50%;
+    width: 25px;
+    height: 25px;
     border: 1px;
-    border-color: green;
+    /* background-color: white; */
+    border: 1px solid green;
+    text-align: center;
+    line-height: 25px;
+    color: green;
+}
+
+.simbolox{
+    display: inline-block;
+    border-radius: 50% 50%;
+    width: 25px;
+    height: 25px;
+    border: 1px;
+    /* background-color: white; */
+    border: 1px solid red;
+    text-align: center;
+    line-height: 25px;
+    color: red;
+}
+
+.celeste{
+    background-color: rgba(69,171,234,255);
+}
+
+#viola{
+    background-color: #9c72e4;
+}
+
+#verde{
+    background-color: #64c0a9;
+}
+
+#giallo{
+    background-color: #f29e33;
+}
+
+#lilla{
+    background-color: #d863a1;
+}
+
+#verde-chiaro{
+    background-color: rgba(176,201,38,255);
 }
 
 .casellacol{
-    border-radius: 20%;
-    background-color: rgba(71,173,241,255);
+    border-radius: 30%;
+    width: 50%;
+    height: 50%;
 }
 
 
