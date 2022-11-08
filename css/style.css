@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#titolo-pagina{
+    display: inline-block;
+    margin-top: 20;
+    font-size: 2em;
+    vertical-align: middle;
+}
+
+#sottosfondo-main{
+    height: 1000px;
+    background-color: lightblue;
+}
