@@ -4,6 +4,8 @@
     box-sizing: border-box;
 }
 
+/* Header pagina */
+
 #titolo-pagina{
     display: inline-block;
     margin-top: 20;
@@ -11,7 +13,67 @@
     vertical-align: middle;
 }
 
+/* Fine Header pagina */
+
+/* Sottosfondo main */
 #sottosfondo-main{
-    height: 1000px;
+    height: 800px;
     background-color: lightblue;
+    padding-top: 50px;
 }
+/* Fine Sottosfondo Main */
+
+/* inizio main */
+.finestra-grande{
+    width: 80%;
+    height: 90%;
+    background-color: white;
+    margin: auto;
+}
+
+#header-main{
+    height: 50px;
+    padding-top: 20px;
+    padding-left: 30px;
+}
+
+#linea-header-body{
+    height: 3px;
+    background-color: lightblue;
+    border-color: lightblue;
+}
+
+/* Button */
+.button{
+    border-radius: 5px;
+    font-size: xx-small;
+}
+
+#button1{
+    background-color: rgba(71,173,241,255);
+}
+/* fine button */
+
+/* body main */
+
+#body-main{
+    padding-left: 50px;
+}
+
+.simbolov{
+    border-radius: 50%;
+    width: 12px;
+    height: 12px;
+    border: 1px;
+    border-color: green;
+}
+
+.casellacol{
+    border-radius: 20%;
+    background-color: rgba(71,173,241,255);
+}
+
+
+/* Fine body main*/
+
+/* fine main */
