@@ -53,17 +53,21 @@ header{
 /* Button */
 .button{
     border-radius: 5px;
-    font-size: xx-small;
+    font-size: small;
+    border-style: none;
+    padding: 5px;
+    margin-top: 0px;
+
 }
 
 #button1{
-    height: 20px;
+    height: 25px;
     background-color: rgba(71,173,241,255);
     color: white;
 }
 
 #button2{
-    height: 20px;
+    height: 25px;
     color: gray;
 }
 /* fine button */
@@ -72,6 +76,10 @@ header{
 
 #body-main{
     padding-left: 50px;
+}
+
+p{
+    margin-bottom: 20px;
 }
 
 .simbolov{
@@ -125,10 +133,12 @@ header{
 }
 
 .casellacol{
-    border-radius: 10%;
-    width: 50px;
-    height: 100px;
+    display: inline-block;
+    border-radius: 40%;
+    width: auto;
+    height: auto;
     color: white;
+    padding: 5px;
 }
 
 .sezione-1{
