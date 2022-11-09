@@ -128,9 +128,12 @@ header{
     border-radius: 10%;
     width: 50px;
     height: 100px;
+    color: white;
 }
 
-
+.sezione-1{
+    margin-bottom: 50px;
+}
 /* Fine body main*/
 
 /* fine main */
